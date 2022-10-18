@@ -1,4 +1,6 @@
 # calculator-api-in-javascript
+### In progress ![50%](https://progress-bar.dev/50)
+
 A simple API calculator with base operations avaible (add, subtract, divide and multiply).
 
 ## Sumary
