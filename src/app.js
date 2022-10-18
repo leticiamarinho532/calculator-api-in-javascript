@@ -1,11 +1,9 @@
 const express = require('express');
 const app = express();
+const routes = require('./routes');
 
 app.use(express.json());
-
-app.get('/', (request, respose) => {
-    respose.send({'message': 'Hello World Test'});
-});
+app.use(routes);
 
 module.exports = {
     app

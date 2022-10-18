@@ -1,4 +1,4 @@
-class calculatorService {
+class CalculatorService {
     add(firstNumber, secondNumber) 
     {
         let result = firstNumber + secondNumber;
@@ -28,4 +28,4 @@ class calculatorService {
     }
 }
 
-module.exports = calculatorService;
+module.exports = CalculatorService;
