@@ -104,3 +104,19 @@ Notice: It's not needed to run command to install dependencies because there is 
     ```
     16
     ```
+- GET /square-root
+
+    **Query Params Explanation**
+    - number = number
+
+    **Exemple request**
+
+    http://localhost:8081/square-root?number=9
+
+    **Responses**
+
+    In Success
+
+    ```
+    3
+    ```
