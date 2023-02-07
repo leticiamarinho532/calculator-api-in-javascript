@@ -26,6 +26,13 @@ class CalculatorService {
 
         return result;
     }
+
+    squareRoot(number) 
+    {
+        let result = Math.sqrt(number);
+
+        return result;
+    }
 }
 
 module.exports = CalculatorService;

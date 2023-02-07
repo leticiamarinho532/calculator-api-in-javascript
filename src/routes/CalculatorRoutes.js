@@ -42,6 +42,15 @@ class CalculatorRoutes {
         return response.json(result);
     }
 
+    async squareRoot(request, response) {
+        const calculator = new calculatorService();
+        const { number } = request.query;
+
+        const result = calculator.squareRoot(Number(number));
+
+        return response.json(result);
+    }
+
 }
 
 module.exports = CalculatorRoutes;
